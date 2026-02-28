@@ -1,0 +1,69 @@
+# Archivos objeto
+*.o
+**/*.o
+*.obj
+*.lo
+*.slo
+
+# Librerías
+*.a
+*.la
+*.lib
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Ejecutables
+*.exe
+*.out
+*.app
+
+# Archivos de depuración
+*.dSYM/
+*.su
+*.idb
+*.pdb
+*.mod
+*.cmd
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+install_manifest.txt
+compile_commands.json
+
+# Make
+*.make
+*.d
+.deps/
+
+# Autotools
+aclocal.m4
+autom4te.cache/
+config.log
+config.status
+configure
+libtool
+m4/
+
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.vcxproj.filters
+*.vcxproj
+*.sln
+
+# CLion / JetBrains
+.idea/
+
+# VS Code
+.vscode/
+
+# Otros temporales
+*.log
+*.tmp
+*.swp
+*~
