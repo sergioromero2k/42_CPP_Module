@@ -1,69 +1,59 @@
-# Archivos objeto
+# Object files
 *.o
-**/*.o
 *.obj
-*.lo
-*.slo
 
-# Librerías
-*.a
-*.la
-*.lib
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Ejecutables
-*.exe
+# Executables
 *.out
+*.exe
 *.app
 
-# Archivos de depuración
+# Libraries
+*.a
+*.so
+*.so.*
+*.dll
+*.dylib
+
+# Precompiled headers / intermediate files
+*.gch
+*.pch
+
+# Debug files
 *.dSYM/
 *.su
 *.idb
 *.pdb
-*.mod
-*.cmd
 
-# CMake
+# CMake generated files
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
+Makefile
 
-install_manifest.txt
-compile_commands.json
-
-# Make
+# Make generated files
 *.make
-*.d
-.deps/
 
-# Autotools
-aclocal.m4
-autom4te.cache/
-config.log
-config.status
-configure
-libtool
-m4/
+# Temporary files
+*.tmp
+*.temp
+*.log
 
-# Visual Studio
-.vs/
-*.vcxproj.user
-*.vcxproj.filters
-*.vcxproj
-*.sln
-
-# CLion / JetBrains
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
 .idea/
 
-# VS Code
-.vscode/
+# System files
+.DS_Store
+Thumbs.db
 
-# Otros temporales
-*.log
-*.tmp
-*.swp
-*~
+# Common build directories
+build/
+bin/
+obj/
+out/
+
+# Dependencies (optional)
+deps/
