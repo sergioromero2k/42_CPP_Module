@@ -13,7 +13,7 @@
 * **std::getline** — leer líneas enteras ✅
 * **iomanip** — setw, right, left para formatear columnas ✅
 * **Include guards** — `#ifndef` / `#define` / `#endif` ✅
-* Makefile para C++
-* **toupper / cctype** — manipular caracteres
+* Makefile para C++ ✅
+* **toupper / cctype** — manipular caracteres ✅
 * Arrays estáticos dentro de clases
 * **Separación de código** — .hpp vs .cpp
