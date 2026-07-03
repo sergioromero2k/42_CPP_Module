@@ -8,11 +8,11 @@
 * Constructores y destructores
 * Initialization lists
 * Métodos const
-* **Static** — atributos y métodos estáticos
-* **std::cout** / `std::cin` / `std::cerr`
-* **std::getline** — leer líneas enteras
-* **iomanip** — setw, right, left para formatear columnas
-* **Include guards** — `#ifndef` / `#define` / `#endif`
+* **Static** — atributos y métodos estáticos ✅
+* **std::cout** / `std::cin` / `std::cerr` ✅
+* **std::getline** — leer líneas enteras ✅
+* **iomanip** — setw, right, left para formatear columnas ✅
+* **Include guards** — `#ifndef` / `#define` / `#endif` ✅
 * Makefile para C++
 * **toupper / cctype** — manipular caracteres
 * Arrays estáticos dentro de clases

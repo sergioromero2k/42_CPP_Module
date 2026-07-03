@@ -6,7 +6,7 @@ Animal::Animal(std::string nombre, int edad) {
 }
 
 Animal::~Animal() {
-    std::cout << "Aniaml Destruido" << std::endl;
+    std::cout << "Animal Destruido" << std::endl;
 }
 
 std::string Animal::getNombre() const {
